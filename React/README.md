@@ -1,6 +1,6 @@
 # Este é um projeto de aprendizagem relacionado a JavaScript especificamente React
 
-![Logo](react.jpeg)
+![Logo](react.jpg)
 
 É focado em React entender e fazer pequenas aplicações nesse biblioteca de JavaScript.
 O React é declarativa, é uma biblioteca e não FrameWork, como também é agnostica de tecnologia e baseada em componentes serve para Front-End. React surgi no intuito de substituir jQuery. Usa-se o React para construção de Single-Page Application (SPA) para não necessitar recarregar a página como todo.
