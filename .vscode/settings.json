@@ -1,6 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "vscode-janus-debug.uploadOnSave": [
-        "App"
+        "App",
+        "MenuSuperior"
     ]
 }
