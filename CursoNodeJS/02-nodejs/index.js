@@ -39,7 +39,7 @@ function obterTelefone(idUsuario) {
 function obterEndereco(idUsuario, callback) {
     setTimeout(() => {
         return callback(null, {
-            rua: 'dos bobos',
+            rua: 'Rua dos bobos',
             numero: 0
         })
     }, 2000);
