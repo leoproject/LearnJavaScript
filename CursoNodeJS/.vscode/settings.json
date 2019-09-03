@@ -2,7 +2,11 @@
     "vscode-janus-debug.uploadOnSave": [
         "index",
         "service",
-        "2.for-forin-forof"
+        "2.for-forin-forof",
+        "02.map",
+        "03.map",
+        "3.filter",
+        "4.reduce"
     ],
     "vscode-janus-debug.uploadManually": [
         "1.for-forin-forof"
