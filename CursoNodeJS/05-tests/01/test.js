@@ -29,9 +29,9 @@ describe('Star Wars Tests', function(){
                      edited: '2014-12-20T21:17:50.311000Z',
                      url: 'https://swapi.co/api/people/3/' } ] }
 
-                    //  nock('https://swapi.co/api/people')
-                    //  .get('/?search=r2-d2&format=json')
-                    //  .reply(200,response)
+                     nock('https://swapi.co/api/people')
+                     .get('/?search=r2-d2&format=json')
+                     .reply(200,response)
 
         
     }

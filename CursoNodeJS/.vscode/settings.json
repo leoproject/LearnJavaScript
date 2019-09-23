@@ -7,7 +7,8 @@
         "03.map",
         "3.filter",
         "4.reduce",
-        "test"
+        "test",
+        "database"
     ],
     "vscode-janus-debug.uploadManually": [
         "1.for-forin-forof"
