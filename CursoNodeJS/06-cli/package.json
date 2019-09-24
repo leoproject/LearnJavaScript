@@ -13,6 +13,7 @@
     "mocha": "^6.2.0"
   },
   "dependencies": {
-    "JSON": "^1.0.0"
+    "JSON": "^1.0.0",
+    "commander": "^3.0.1"
   }
 }
