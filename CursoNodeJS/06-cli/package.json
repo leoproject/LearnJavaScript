@@ -10,10 +10,10 @@
   "author": "LeonardoJS",
   "license": "ISC",
   "devDependencies": {
+    "commander": "^3.0.1",
     "mocha": "^6.2.0"
   },
   "dependencies": {
-    "JSON": "^1.0.0",
-    "commander": "^3.0.1"
+    "JSON": "^1.0.0"
   }
 }

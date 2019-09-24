@@ -10,6 +10,7 @@ async function main(){
     .option('-i, --indice [value]', "Indice do Heroi")
 
     .option('-c, --cadastrar', "Cadastrar um heroi")
+    .option('-l, --listar', "Listar todos herois")
 
     .parse(process.argv)
     const heroi = new Heroi(Commander);
@@ -22,6 +23,13 @@ async function main(){
                 return;
             }
             console.log('Heroi cadastrado com êxito!!!');
+            
+        }
+
+        if(Commander.listar){
+            const resultado = await Database.listar();
+            console.log(resultado);
+            return;
             
         }
         
