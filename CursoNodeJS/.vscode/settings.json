@@ -8,7 +8,12 @@
         "3.filter",
         "4.reduce",
         "test",
-        "database"
+        "database",
+        "strategy",
+        "interfaceCrud",
+        "contextStrategy",
+        "mongodb",
+        "postgres"
     ],
     "vscode-janus-debug.uploadManually": [
         "1.for-forin-forof"
