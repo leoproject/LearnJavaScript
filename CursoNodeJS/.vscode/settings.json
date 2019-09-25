@@ -13,7 +13,8 @@
         "interfaceCrud",
         "contextStrategy",
         "mongodb",
-        "postgres"
+        "postgres",
+        "postgresExample"
     ],
     "vscode-janus-debug.uploadManually": [
         "1.for-forin-forof"
