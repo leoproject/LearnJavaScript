@@ -4,7 +4,8 @@
   "description": "docker run \\      --name postgres \\     -e POSTGRES_USER=leonardojs \\     -e POSTGRES_PASSWORD=leo@postgres \\     -e POSTGRES_DB=Heroes \\     -p 5432:5432 \\      -d \\ postgres ***** valendo aqui ******* docker run \\     --name postgres \\     -e POSTGRES_USER=leo \\     -e POSTGRES_PASSWORD=leo123 \\     -e POSTGRES_DB=heroes \\     -p 5432:5432 \\     -d \\     postgres",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/tests/*.js",
+    "test:watch": "mocha src/tests/*.js -w"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.19.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
   }
 }

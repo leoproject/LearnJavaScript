@@ -14,7 +14,8 @@
         "contextStrategy",
         "mongodb",
         "postgres",
-        "postgresExample"
+        "postgresExample",
+        "postgresStrategy.test"
     ],
     "vscode-janus-debug.uploadManually": [
         "1.for-forin-forof"
