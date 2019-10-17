@@ -4,23 +4,29 @@ class List{
     }
     add(data){
         this.data.push(data);
+        console.log(this.data);
+        
     }
 }
 
-class TodoList{
+class TodoList extends List{
     constructor(){
-        this.todos = [];
+        super();
+        this.usuario = 'Diego';
     }
 
-    addTodo(){
-        this.todos.push('Novo todo');
-        console.log(this.todos);
-        
+    mostrarUsuario(){
+        console.log(this.usuario);
+
     }
+
+    
+
 }
 
 const MinhaLista = new TodoList();
 
 document.getElementById('novotodo').onclick = function(){
-    MinhaLista.addTodo();
+    MinhaLista.add('Novo TODO POR HERANÇA');
+    MinhaLista.mostrarUsuario();
 }
