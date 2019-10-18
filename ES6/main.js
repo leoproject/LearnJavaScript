@@ -1,24 +1,31 @@
-// na const não pode mudar variavel tornando a linguagem fortemente tipada
+const arr = [1,3,4,5,8,10];
 
-// const a = 1;
+// Map percorre cada item do veto e executa a função
+const newArr = arr.map(function(item, index){
+    return item+index;
+})
 
-// a = 3;
+console.log(newArr);
 
-//mutação é possível dentro de uma variavel de escopo
-const usuario = {nome:'Diego'};
+// pega o vetor e reduz para um valor natural
+const sum = arr.reduce(function(total,next){
+    return total+next;
 
-usuario.nome = 'Cleiton'
+});
 
+console.log(sum);
 
-function teste(x){
-    let y = 2;
-    if (x>5){
-        let y=4;
-        console.log(x,y);
-    }
-}
+// ele filtra de acordo com a função
+const filter = arr.filter(function(item){
+    return item % 2 === 0;
 
-teste(10);
-document.getElementById("action").onclick = function(){
-    console.log(usuario);
-}
+});
+
+console.log(filter);
+
+// find para encontrar dentro do array
+
+const find = arr.find(function(item){
+    return item === 2;
+
+});
