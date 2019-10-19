@@ -1,31 +1,16 @@
-const arr = [1,3,4,5,8,10];
+const usuario ={
+    nome:'Diego',
+    idade: 30,
+    endereco:{
+        estado:'Ri do sul',
+        cidade:'SC',
+    },
+};
 
-// Map percorre cada item do veto e executa a função
-const newArr = arr.map(function(item, index){
-    return item+index;
-})
+const {nome, idade,endereco:{cidade}} = usuario;
 
-console.log(newArr);
+console.log(nome);
+console.log(idade);
+console.log(cidade);
 
-// pega o vetor e reduz para um valor natural
-const sum = arr.reduce(function(total,next){
-    return total+next;
 
-});
-
-console.log(sum);
-
-// ele filtra de acordo com a função
-const filter = arr.filter(function(item){
-    return item % 2 === 0;
-
-});
-
-console.log(filter);
-
-// find para encontrar dentro do array
-
-const find = arr.find(function(item){
-    return item === 2;
-
-});
