@@ -1,6 +1,5 @@
-const nome = 'Leonardo';
-const idade =27;
-// isso aqui é conhecido como template literals
-// console.log('Meu nome é '+nome+' e tenho '+idade+' anos');
-console.log(`Meu nome é ${nome} e tenho ${idade} anos`);
+// import {soma, sub} from './funcoes';
+import soma from './soma'
 
+console.log(soma(2,3));
+// console.log(sub(10,3));
