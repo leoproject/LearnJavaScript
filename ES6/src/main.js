@@ -1,7 +1,12 @@
-// import {soma, sub} from './funcoes';
-import soma from './soma'
 
-console.log(soma(2,3));
-// console.log(sub(10,3));
 
-alert("testando");
+const minhaPromise =()=> new Promise((resolve,reject)=>{
+ setTimeout(()=> {resolve('ok')},2000);
+});
+
+async function executaPromise(){
+    console.log(await minhaPromise());
+}
+
+executaPromise();
+
