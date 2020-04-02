@@ -42,7 +42,7 @@ docker run\
 *** Cliente para o MongoDB ***
 docker run \
    --name mongoclient \
-   -p 3000:631 \
+   -p 3000:3000 \
    --link mongodb:mongodb \
    -d \
    mongoclient/mongoclient
